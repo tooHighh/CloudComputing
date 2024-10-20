@@ -106,11 +106,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".b");
   
   const pages = [
-    "/WebDesign/pages/index1.html",
-    "/WebDesign/pages/index2.html",
-    "/WebDesign/pages/index3.html",
-    "/WebDesign/pages/index4.html",
-    "/WebDesign/pages/index5.html",
+    "pages/index1.html",
+    "pages/index2.html",
+    "pages/index3.html",
+    "pages/index4.html",
+    "pages/index5.html",
   ];
   
   const currentPage = window.location.pathname.split("/").pop();
