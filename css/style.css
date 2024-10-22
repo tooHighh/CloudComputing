@@ -26,6 +26,7 @@ nav {
   padding: 0em 2em;
   position: fixed;
   z-index: 10;
+  box-shadow: rgb(255, 255, 255) 0.1em 0.1em 3em;
 }
 
 nav * {
@@ -167,6 +168,7 @@ nav h1 {
 
 .about {
   margin-top: 2em;
+  box-shadow: rgb(255, 255, 255) 0.1em -0.1em 3em;
 }
 
 .about,
