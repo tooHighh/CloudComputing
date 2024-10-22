@@ -433,16 +433,11 @@ nav h1 {
 }
 
 .contact-item i {
-  margin: 0.5em;
+  margin-right: 0.5em;
 }
 
 .contact-item a {
   text-decoration: none;
-}
-
-.contact-item p {
-  display: inline;
-  margin-left: 3em;
 }
 
 .contact-item a:hover {
@@ -527,10 +522,11 @@ nav h1 {
   box-shadow: none;
 }
 
-hr{
+hr {
   width: 80%;
+  margin: 2em 0em;
   margin-left: 10%;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 1200px) {
