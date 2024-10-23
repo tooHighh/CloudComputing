@@ -250,7 +250,8 @@ nav h1 {
   margin-left: 5%;
   animation: img_fade_in linear;
   animation-timeline: view();
-  animation-range-end: 50em;
+  animation-range-end: 40em;
+  mix-blend-mode:lighten;
 }
 
 .p2 div {
